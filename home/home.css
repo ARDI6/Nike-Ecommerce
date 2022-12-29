@@ -1,0 +1,430 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  color: rgb(92, 92, 92);
+}
+
+/****************/
+/* NAV */
+/****************/
+
+.nike-logo {
+  width: 5%;
+}
+
+.hero {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(92, 92, 92);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav ul li {
+  list-style-type: none;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.nav-btn {
+  border: none;
+  padding: 10px 10px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+}
+
+.nav-icon {
+  margin-right: 10px;
+}
+
+/**************************/
+/* HEADER */
+/**************************/
+
+.section-hero {
+  background-color: #fdf2e9;
+}
+
+.header-hero {
+  margin-left: 200px;
+  max-width: 130rem;
+  padding: 0 12rem;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  gap: 4.6rem;
+  align-items: center;
+}
+
+.hero-img {
+  width: 75%;
+  margin-top: 30px;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 600;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+}
+
+/* btn  */
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+/****************/
+/* BANNER */
+/*************** */
+
+.banner {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+/****************/
+/* START OF CATEGORIES */
+/*************** */
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.categories-month {
+  font-size: 3rem;
+  color: #333;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 75px;
+}
+
+.categories-img {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 10px;
+  image-rendering: auto;
+  margin-right: 20px;
+  /* border: 1px solid black; */
+}
+
+.categories-txt {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.categories-btn {
+  
+  border: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #e67e22;
+  color: #fff;
+  
+}
+.categories-btn:hover {
+  background-color: #cf711f;
+}
+
+/****************/
+/* features   */
+/*************** */
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  background-color: #fdf2e9;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.featureIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.featureTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.featureDesc {
+  color: gray;
+  width: 50%;
+  height: 100px;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+footer {
+  display: flex;
+  background-color: #fdf2e9;
+}
+
+.footerLeft {
+  margin-left: 250px;
+  flex: 0.8;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.follow {
+  margin-bottom: 10px;
+  margin-left: 4px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: gray;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footerRight {
+  margin-left: 140px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons {
+  display: flex;
+}
+
+.fIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* slider  */
+
+main {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+main .text {
+  padding: 10px;
+  text-align: center;
+  /*font-size: 30px;*/
+  color: #554;
+}
+.text h1 {
+  font-size: 50px;
+}
+.text p {
+  width: 60%;
+  padding: 5px;
+  margin: auto;
+  line-height: 30px;
+}
+main header {
+  margin: 0 auto;
+  /*background: gray;*/
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+}
+header p span {
+  font-size: 40px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: #555;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 3px;
+}
+header p span:hover {
+  background: #222;
+  color: white;
+}
+section {
+  width: 98%;
+  height: 600px;
+  /*background: red;*/
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+section::-webkit-scrollbar {
+  display: none;
+}
+section .product {
+  min-width: 24%;
+  background: whitesmoke;
+  margin: 0 20px 0 0;
+  border-radius: 20px;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+}
+picture {
+  width: 100%;
+  height: 70%;
+  padding: 20px;
+  /*background: green;*/
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+picture img {
+  width: 100%;
+}
+.detail {
+  width: 90%;
+  /*background: red;*/
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 20px;
+}
+small {
+  color: #555;
+}
+
+.text-margin {
+  margin: 0 auto;
+  font-size: 3rem;
+  color: #333;
+}
+
+.nav-hov:hover {
+ color:#555;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+.navi:hover {
+  color:#555;
+}
+.fListItem:hover {
+  color: black;
+}
